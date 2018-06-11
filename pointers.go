@@ -7,7 +7,6 @@ func main() {
 
     p := &i
     fmt.Println(*p)
-    fmt.Println(p)
     *p = 21
     fmt.Println(i)
 
